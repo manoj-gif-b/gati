@@ -1,0 +1,15 @@
+{
+  "subject": "science",
+  "skills": [
+    { "id": "s6_food", "name": "Food: sources and components", "class": 6, "subject": "science", "prerequisites": [] },
+    { "id": "s6_materials", "name": "Materials: sorting and grouping", "class": 6, "subject": "science", "prerequisites": [] },
+    { "id": "s6_plants", "name": "Plants: parts and functions", "class": 6, "subject": "science", "prerequisites": [] },
+    { "id": "s6_motion", "name": "Motion and measurement of distances", "class": 6, "subject": "science", "prerequisites": [] },
+    { "id": "s7_nutrition", "name": "Nutrition in plants and animals", "class": 7, "subject": "science", "prerequisites": ["s6_plants", "s6_food"] },
+    { "id": "s7_heat", "name": "Heat and temperature", "class": 7, "subject": "science", "prerequisites": [] },
+    { "id": "s7_acids", "name": "Acids, bases and salts", "class": 7, "subject": "science", "prerequisites": ["s6_materials"] },
+    { "id": "s8_cell", "name": "Cell: structure and functions", "class": 8, "subject": "science", "prerequisites": ["s7_nutrition"] },
+    { "id": "s8_reproduction", "name": "Reproduction in plants and animals", "class": 8, "subject": "science", "prerequisites": ["s7_nutrition"] },
+    { "id": "s8_force", "name": "Force and pressure", "class": 8, "subject": "science", "prerequisites": ["s6_motion"] }
+  ]
+}

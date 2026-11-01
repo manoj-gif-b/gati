@@ -1,0 +1,15 @@
+{
+  "subject": "maths",
+  "skills": [
+    { "id": "m6_numbers", "name": "Whole numbers and operations", "class": 6, "subject": "maths", "prerequisites": [] },
+    { "id": "m6_fractions", "name": "Fractions and decimals", "class": 6, "subject": "maths", "prerequisites": ["m6_numbers"] },
+    { "id": "m6_geometry", "name": "Lines, angles and triangles", "class": 6, "subject": "maths", "prerequisites": [] },
+    { "id": "m6_algebra", "name": "Patterns and simple equations", "class": 6, "subject": "maths", "prerequisites": ["m6_numbers"] },
+    { "id": "m7_integers", "name": "Integers and negative numbers", "class": 7, "subject": "maths", "prerequisites": ["m6_numbers"] },
+    { "id": "m7_ratio", "name": "Ratio, proportion and percentages", "class": 7, "subject": "maths", "prerequisites": ["m6_fractions"] },
+    { "id": "m7_algebra", "name": "Linear equations in one variable", "class": 7, "subject": "maths", "prerequisites": ["m6_algebra"] },
+    { "id": "m8_algebra", "name": "Linear equations in two variables", "class": 8, "subject": "maths", "prerequisites": ["m7_algebra"] },
+    { "id": "m8_geometry", "name": "Quadrilaterals, area and volume", "class": 8, "subject": "maths", "prerequisites": ["m6_geometry"] },
+    { "id": "m8_data", "name": "Data handling and graphs", "class": 8, "subject": "maths", "prerequisites": ["m7_ratio"] }
+  ]
+}

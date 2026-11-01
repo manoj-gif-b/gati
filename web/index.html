@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gati — Learn</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Student login -->
+<div id="login-screen" class="screen">
+  <div class="card">
+    <h1>Gati</h1>
+    <p>Adaptive learning &mdash; Maths &amp; Science, Classes 6 to 8</p>
+    <label>Pick your name</label>
+    <select id="student-picker"></select>
+    <button id="start-btn">Start</button>
+    <div id="login-err" class="err"></div>
+  </div>
+</div>
+
+<!-- Main app (shown after login) -->
+<div id="app" class="screen hidden">
+  <header class="app-header">
+    <div id="student-label">Student</div>
+    <div class="subject-picker">
+      <button class="subj-btn" data-subject="maths">Maths</button>
+      <button class="subj-btn" data-subject="science">Science</button>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab" data-screen="learn">Learn</button>
+    <button class="tab" data-screen="solve">Solve</button>
+    <button class="tab" data-screen="test">Test</button>
+  </nav>
+
+  <!-- Learn screen -->
+  <section id="learn-screen" class="screen">
+    <h2>Learn</h2>
+    <div id="learn-empty" class="empty hidden">Pick a subject to begin.</div>
+    <div id="learn-card" class="card hidden">
+      <h3 id="learn-skill-title"></h3>
+      <p id="learn-skill-sub" class="sub"></p>
+      <div id="learn-reason" class="reason"></div>
+      <div id="learn-concept" class="concept"></div>
+      <button id="learn-continue">Continue to Solve</button>
+    </div>
+  </section>
+
+  <!-- Solve screen -->
+  <section id="solve-screen" class="screen">
+    <h2>Solve</h2>
+    <div id="solve-empty" class="empty hidden">Continue from Learn to get a question.</div>
+    <div id="solve-card" class="card hidden">
+      <div id="solve-skill-label" class="sub"></div>
+      <div class="mastery-row">
+        <span>Mastery</span>
+        <div class="bar"><div id="solve-mastery-fill" class="fill"></div></div>
+        <span id="solve-mastery-pct">0%</span>
+      </div>
+      <p id="solve-question"></p>
+      <div id="solve-options"></div>
+      <div id="solve-feedback" class="feedback"></div>
+      <div id="solve-next-reason" class="reason"></div>
+      <button id="solve-continue" class="hidden">Continue</button>
+    </div>
+  </section>
+
+  <!-- Test screen -->
+  <section id="test-screen" class="screen">
+    <h2>Test</h2>
+    <p id="test-intro">When you reach mastered level on a skill, a 3-question check will appear here automatically.</p>
+    <div id="test-card" class="card hidden">
+      <div id="test-skill-label" class="sub"></div>
+      <p id="test-question"></p>
+      <div id="test-options"></div>
+      <div id="test-feedback" class="feedback"></div>
+      <button id="test-continue" class="hidden">Continue</button>
+    </div>
+  </section>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

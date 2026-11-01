@@ -1,0 +1,42 @@
+{
+  "m6_numbers": {
+    "title": "Whole numbers and operations",
+    "text": "Whole numbers are the counting numbers we use every day. We add, subtract, multiply and divide them, working with place value up to millions. These operations are the foundation for every other maths topic you will learn."
+  },
+  "m6_fractions": {
+    "title": "Fractions and decimals",
+    "text": "A fraction shows part of a whole, and a decimal is another way to write the same idea. We compare fractions, add and subtract them, and switch between fractions and decimals. This topic builds directly on whole-number skills."
+  },
+  "m6_geometry": {
+    "title": "Lines, angles and triangles",
+    "text": "We learn to name different lines and angles, and to classify triangles by their sides and angles. Angles are measured in degrees, and the three angles of any triangle always add up to 180°. No prior skill is needed to start here."
+  },
+  "m6_algebra": {
+    "title": "Patterns and simple equations",
+    "text": "A pattern follows a rule we can write down with a letter such as x. We solve simple equations like x + 7 = 12 by finding the hidden number that makes the statement true. This needs confidence with whole numbers first."
+  },
+  "m7_integers": {
+    "title": "Integers and negative numbers",
+    "text": "Integers include whole numbers, zero and negative numbers. We add, subtract and multiply integers by moving left and right on a number line. This extends whole-number arithmetic to values below zero."
+  },
+  "m7_ratio": {
+    "title": "Ratio, proportion and percentages",
+    "text": "A ratio compares two quantities, and a percentage is simply a ratio out of 100. We simplify ratios, find percentages of amounts and solve problems such as \"if 5 pens cost ₹25, what do 8 cost?\". This needs fractions."
+  },
+  "m7_algebra": {
+    "title": "Linear equations in one variable",
+    "text": "We solve equations with one unknown, such as 2x + 3 = 11, by keeping both sides balanced. Whatever we do to one side, we do to the other, until x stands alone. This builds on patterns and simple equations."
+  },
+  "m8_algebra": {
+    "title": "Linear equations in two variables",
+    "text": "We solve pairs of equations together, such as x + y = 5 and x − y = 1, to find values for both x and y that work at the same time. The two lines cross at the answer. This needs one-variable equations."
+  },
+  "m8_geometry": {
+    "title": "Quadrilaterals, area and volume",
+    "text": "We study four-sided shapes and calculate area and volume. The area of a rectangle is length × breadth, and the volume of a cube is side × side × side. This builds on lines, angles and triangles."
+  },
+  "m8_data": {
+    "title": "Data handling and graphs",
+    "text": "We collect information and show it with bar graphs. From a data set we find the median (middle value when sorted) and the mode (value that appears most often). This needs ratio and percentages."
+  }
+}

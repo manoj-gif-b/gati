@@ -1,0 +1,813 @@
+{
+  "subject": "maths",
+  "items": [
+    {
+      "id": "m6_numbers_1",
+      "skill_id": "m6_numbers",
+      "question": "What is 456 + 389?",
+      "options": [
+        "845",
+        "745",
+        "835",
+        "755"
+      ],
+      "answer": "845",
+      "explanation": "456 + 389 = 845."
+    },
+    {
+      "id": "m6_numbers_2",
+      "skill_id": "m6_numbers",
+      "question": "What is 27 × 6?",
+      "options": [
+        "162",
+        "152",
+        "142",
+        "172"
+      ],
+      "answer": "162",
+      "explanation": "27 × 6 = 162."
+    },
+    {
+      "id": "m6_numbers_3",
+      "skill_id": "m6_numbers",
+      "question": "What is 1000 − 468?",
+      "options": [
+        "532",
+        "542",
+        "632",
+        "642"
+      ],
+      "answer": "532",
+      "explanation": "1000 − 468 = 532."
+    },
+    {
+      "id": "m6_fractions_1",
+      "skill_id": "m6_fractions",
+      "question": "Which fraction is the same as 0.5?",
+      "options": [
+        "1/2",
+        "1/4",
+        "3/4",
+        "2/3"
+      ],
+      "answer": "1/2",
+      "explanation": "0.5 = 5/10 = 1/2."
+    },
+    {
+      "id": "m6_fractions_2",
+      "skill_id": "m6_fractions",
+      "question": "What is 1/4 + 1/4?",
+      "options": [
+        "1/2",
+        "1/8",
+        "2/8",
+        "1"
+      ],
+      "answer": "1/2",
+      "explanation": "1/4 + 1/4 = 2/4 = 1/2."
+    },
+    {
+      "id": "m6_fractions_3",
+      "skill_id": "m6_fractions",
+      "question": "Which is larger: 3/4 or 2/4?",
+      "options": [
+        "3/4",
+        "2/4",
+        "equal",
+        "cannot say"
+      ],
+      "answer": "3/4",
+      "explanation": "Same denominator, so the larger numerator wins: 3/4."
+    },
+    {
+      "id": "m6_geometry_1",
+      "skill_id": "m6_geometry",
+      "question": "An angle of exactly 90° is called a",
+      "options": [
+        "right angle",
+        "acute angle",
+        "obtuse angle",
+        "straight angle"
+      ],
+      "answer": "right angle",
+      "explanation": "A 90° angle is a right angle."
+    },
+    {
+      "id": "m6_geometry_2",
+      "skill_id": "m6_geometry",
+      "question": "A triangle with all three sides equal is called",
+      "options": [
+        "equilateral",
+        "isosceles",
+        "scalene",
+        "right"
+      ],
+      "answer": "equilateral",
+      "explanation": "All sides equal → equilateral triangle."
+    },
+    {
+      "id": "m6_geometry_3",
+      "skill_id": "m6_geometry",
+      "question": "The sum of angles in a triangle is",
+      "options": [
+        "180°",
+        "90°",
+        "360°",
+        "270°"
+      ],
+      "answer": "180°",
+      "explanation": "The angles of any triangle add up to 180°."
+    },
+    {
+      "id": "m6_algebra_1",
+      "skill_id": "m6_algebra",
+      "question": "If x + 7 = 12, then x =",
+      "options": [
+        "5",
+        "7",
+        "19",
+        "12"
+      ],
+      "answer": "5",
+      "explanation": "x = 12 − 7 = 5."
+    },
+    {
+      "id": "m6_algebra_2",
+      "skill_id": "m6_algebra",
+      "question": "The next number in 2, 4, 6, 8, __ is",
+      "options": [
+        "10",
+        "12",
+        "6",
+        "16"
+      ],
+      "answer": "10",
+      "explanation": "Add 2 each time: 8 + 2 = 10."
+    },
+    {
+      "id": "m6_algebra_3",
+      "skill_id": "m6_algebra",
+      "question": "Solve: 3x = 15",
+      "options": [
+        "5",
+        "3",
+        "12",
+        "45"
+      ],
+      "answer": "5",
+      "explanation": "x = 15 / 3 = 5."
+    },
+    {
+      "id": "m7_integers_1",
+      "skill_id": "m7_integers",
+      "question": "What is (−5) + 3?",
+      "options": [
+        "−2",
+        "−8",
+        "2",
+        "8"
+      ],
+      "answer": "−2",
+      "explanation": "Start at −5 and move 3 right: −2."
+    },
+    {
+      "id": "m7_integers_2",
+      "skill_id": "m7_integers",
+      "question": "What is 6 × (−3)?",
+      "options": [
+        "−18",
+        "18",
+        "−9",
+        "9"
+      ],
+      "answer": "−18",
+      "explanation": "Positive × negative = negative: −18."
+    },
+    {
+      "id": "m7_integers_3",
+      "skill_id": "m7_integers",
+      "question": "Which is greater: −4 or −7?",
+      "options": [
+        "−4",
+        "−7",
+        "equal"
+      ],
+      "answer": "−4",
+      "explanation": "−4 is to the right of −7 on the number line."
+    },
+    {
+      "id": "m7_ratio_1",
+      "skill_id": "m7_ratio",
+      "question": "The ratio 4:6 in simplest form is",
+      "options": [
+        "2:3",
+        "1:2",
+        "4:3",
+        "2:6"
+      ],
+      "answer": "2:3",
+      "explanation": "Divide both sides by 2: 4:6 = 2:3."
+    },
+    {
+      "id": "m7_ratio_2",
+      "skill_id": "m7_ratio",
+      "question": "20% of 50 is",
+      "options": [
+        "10",
+        "5",
+        "25",
+        "20"
+      ],
+      "answer": "10",
+      "explanation": "20/100 × 50 = 10."
+    },
+    {
+      "id": "m7_ratio_3",
+      "skill_id": "m7_ratio",
+      "question": "If 5 pens cost ₹25, 8 pens cost",
+      "options": [
+        "₹40",
+        "₹45",
+        "₹35",
+        "₹30"
+      ],
+      "answer": "₹40",
+      "explanation": "One pen costs ₹5, so 8 pens cost ₹40."
+    },
+    {
+      "id": "m7_algebra_1",
+      "skill_id": "m7_algebra",
+      "question": "Solve: 2x + 3 = 11",
+      "options": [
+        "4",
+        "5",
+        "7",
+        "3"
+      ],
+      "answer": "4",
+      "explanation": "2x = 8, so x = 4."
+    },
+    {
+      "id": "m7_algebra_2",
+      "skill_id": "m7_algebra",
+      "question": "Solve: 5x − 10 = 0",
+      "options": [
+        "2",
+        "5",
+        "10",
+        "0"
+      ],
+      "answer": "2",
+      "explanation": "5x = 10, so x = 2."
+    },
+    {
+      "id": "m7_algebra_3",
+      "skill_id": "m7_algebra",
+      "question": "If x = 3, then 4x − 2 =",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "answer": "10",
+      "explanation": "4 × 3 − 2 = 10."
+    },
+    {
+      "id": "m8_algebra_1",
+      "skill_id": "m8_algebra",
+      "question": "Solve: x + y = 5, x − y = 1",
+      "options": [
+        "x=3, y=2",
+        "x=2, y=3",
+        "x=4, y=1",
+        "x=3, y=1"
+      ],
+      "answer": "x=3, y=2",
+      "explanation": "Adding gives 2x = 6, so x = 3 and y = 2."
+    },
+    {
+      "id": "m8_algebra_2",
+      "skill_id": "m8_algebra",
+      "question": "In 2x + 3y = 12, if x = 3 then y =",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "answer": "2",
+      "explanation": "6 + 3y = 12, so y = 2."
+    },
+    {
+      "id": "m8_algebra_3",
+      "skill_id": "m8_algebra",
+      "question": "y = 2x + 1 is a",
+      "options": [
+        "linear equation",
+        "quadratic",
+        "cubic",
+        "constant"
+      ],
+      "answer": "linear equation",
+      "explanation": "x appears only to the power of 1."
+    },
+    {
+      "id": "m8_geometry_1",
+      "skill_id": "m8_geometry",
+      "question": "Area of a rectangle = length ×",
+      "options": [
+        "breadth",
+        "height",
+        "diagonal",
+        "perimeter"
+      ],
+      "answer": "breadth",
+      "explanation": "Area = length × breadth."
+    },
+    {
+      "id": "m8_geometry_2",
+      "skill_id": "m8_geometry",
+      "question": "All sides equal and all angles 90° →",
+      "options": [
+        "square",
+        "rectangle",
+        "rhombus",
+        "trapezium"
+      ],
+      "answer": "square",
+      "explanation": "That is a square."
+    },
+    {
+      "id": "m8_geometry_3",
+      "skill_id": "m8_geometry",
+      "question": "Volume of a cube of side 3 cm is",
+      "options": [
+        "27 cm³",
+        "9 cm³",
+        "12 cm³",
+        "3 cm³"
+      ],
+      "answer": "27 cm³",
+      "explanation": "3 × 3 × 3 = 27 cm³."
+    },
+    {
+      "id": "m8_data_1",
+      "skill_id": "m8_data",
+      "question": "A bar graph uses",
+      "options": [
+        "bars",
+        "lines",
+        "circles",
+        "angles"
+      ],
+      "answer": "bars",
+      "explanation": "Bar graphs represent data with rectangular bars."
+    },
+    {
+      "id": "m8_data_2",
+      "skill_id": "m8_data",
+      "question": "The middle value of sorted data is the",
+      "options": [
+        "median",
+        "mean",
+        "mode",
+        "range"
+      ],
+      "answer": "median",
+      "explanation": "The median is the middle value after sorting."
+    },
+    {
+      "id": "m8_data_3",
+      "skill_id": "m8_data",
+      "question": "The most frequent value in data is the",
+      "options": [
+        "mode",
+        "median",
+        "mean",
+        "range"
+      ],
+      "answer": "mode",
+      "explanation": "The mode is the value that occurs most often."
+    },
+    {
+      "id": "m6_numbers_t1",
+      "skill_id": "m6_numbers",
+      "question": "What is 123 + 456?",
+      "options": [
+        "579",
+        "479",
+        "589",
+        "578"
+      ],
+      "answer": "579",
+      "explanation": "123+456=579.",
+      "test": true
+    },
+    {
+      "id": "m6_numbers_t2",
+      "skill_id": "m6_numbers",
+      "question": "What is 81 − 29?",
+      "options": [
+        "52",
+        "62",
+        "51",
+        "61"
+      ],
+      "answer": "52",
+      "explanation": "81-29=52.",
+      "test": true
+    },
+    {
+      "id": "m6_numbers_t3",
+      "skill_id": "m6_numbers",
+      "question": "What is 9 × 7?",
+      "options": [
+        "63",
+        "54",
+        "72",
+        "81"
+      ],
+      "answer": "63",
+      "explanation": "9×7=63.",
+      "test": true
+    },
+    {
+      "id": "m6_fractions_t1",
+      "skill_id": "m6_fractions",
+      "question": "What is 1/2 + 1/2?",
+      "options": [
+        "1",
+        "1/4",
+        "2/4",
+        "0"
+      ],
+      "answer": "1",
+      "explanation": "1/2+1/2=1.",
+      "test": true
+    },
+    {
+      "id": "m6_fractions_t2",
+      "skill_id": "m6_fractions",
+      "question": "What is 0.25 as a fraction?",
+      "options": [
+        "1/4",
+        "1/2",
+        "1/5",
+        "1/8"
+      ],
+      "answer": "1/4",
+      "explanation": "0.25=1/4.",
+      "test": true
+    },
+    {
+      "id": "m6_fractions_t3",
+      "skill_id": "m6_fractions",
+      "question": "Which is smaller: 1/3 or 2/3?",
+      "options": [
+        "1/3",
+        "2/3",
+        "equal"
+      ],
+      "answer": "1/3",
+      "explanation": "Same denominator.",
+      "test": true
+    },
+    {
+      "id": "m6_geometry_t1",
+      "skill_id": "m6_geometry",
+      "question": "An angle less than 90° is called",
+      "options": [
+        "acute",
+        "obtuse",
+        "right",
+        "straight"
+      ],
+      "answer": "acute",
+      "explanation": "<90° is acute.",
+      "test": true
+    },
+    {
+      "id": "m6_geometry_t2",
+      "skill_id": "m6_geometry",
+      "question": "A triangle with two equal sides is",
+      "options": [
+        "isosceles",
+        "equilateral",
+        "scalene",
+        "right"
+      ],
+      "answer": "isosceles",
+      "explanation": "2 equal sides.",
+      "test": true
+    },
+    {
+      "id": "m6_geometry_t3",
+      "skill_id": "m6_geometry",
+      "question": "A straight angle measures",
+      "options": [
+        "180°",
+        "90°",
+        "360°",
+        "45°"
+      ],
+      "answer": "180°",
+      "explanation": "Straight angle=180°.",
+      "test": true
+    },
+    {
+      "id": "m6_algebra_t1",
+      "skill_id": "m6_algebra",
+      "question": "If x − 4 = 9, then x =",
+      "options": [
+        "13",
+        "5",
+        "12",
+        "14"
+      ],
+      "answer": "13",
+      "explanation": "x=9+4=13.",
+      "test": true
+    },
+    {
+      "id": "m6_algebra_t2",
+      "skill_id": "m6_algebra",
+      "question": "Next in 10,20,30,40,__ is",
+      "options": [
+        "50",
+        "60",
+        "45",
+        "35"
+      ],
+      "answer": "50",
+      "explanation": "+10 each time.",
+      "test": true
+    },
+    {
+      "id": "m6_algebra_t3",
+      "skill_id": "m6_algebra",
+      "question": "Solve: x / 2 = 6",
+      "options": [
+        "12",
+        "6",
+        "3",
+        "24"
+      ],
+      "answer": "12",
+      "explanation": "x=6×2=12.",
+      "test": true
+    },
+    {
+      "id": "m7_integers_t1",
+      "skill_id": "m7_integers",
+      "question": "What is (−4) + (−6)?",
+      "options": [
+        "−10",
+        "−2",
+        "10",
+        "2"
+      ],
+      "answer": "−10",
+      "explanation": "-4+-6=-10.",
+      "test": true
+    },
+    {
+      "id": "m7_integers_t2",
+      "skill_id": "m7_integers",
+      "question": "What is −8 − (−3)?",
+      "options": [
+        "−5",
+        "−11",
+        "5",
+        "11"
+      ],
+      "answer": "−5",
+      "explanation": "-8-(-3)=-5.",
+      "test": true
+    },
+    {
+      "id": "m7_integers_t3",
+      "skill_id": "m7_integers",
+      "question": "What is (−2) × (−5)?",
+      "options": [
+        "10",
+        "−10",
+        "7",
+        "−7"
+      ],
+      "answer": "10",
+      "explanation": "-×-=+.",
+      "test": true
+    },
+    {
+      "id": "m7_ratio_t1",
+      "skill_id": "m7_ratio",
+      "question": "30% of 200 is",
+      "options": [
+        "60",
+        "30",
+        "200",
+        "6"
+      ],
+      "answer": "60",
+      "explanation": "30%×200=60.",
+      "test": true
+    },
+    {
+      "id": "m7_ratio_t2",
+      "skill_id": "m7_ratio",
+      "question": "The ratio 15:25 in simplest form is",
+      "options": [
+        "3:5",
+        "5:3",
+        "1:2",
+        "15:25"
+      ],
+      "answer": "3:5",
+      "explanation": "÷5 both sides.",
+      "test": true
+    },
+    {
+      "id": "m7_ratio_t3",
+      "skill_id": "m7_ratio",
+      "question": "If 3 apples cost ₹30, 7 apples cost",
+      "options": [
+        "₹70",
+        "₹60",
+        "₹80",
+        "₹50"
+      ],
+      "answer": "₹70",
+      "explanation": "₹10 each.",
+      "test": true
+    },
+    {
+      "id": "m7_algebra_t1",
+      "skill_id": "m7_algebra",
+      "question": "Solve: 3x − 5 = 10",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "answer": "5",
+      "explanation": "3x=15,x=5.",
+      "test": true
+    },
+    {
+      "id": "m7_algebra_t2",
+      "skill_id": "m7_algebra",
+      "question": "If x = −2, then 2x + 5 =",
+      "options": [
+        "1",
+        "3",
+        "9",
+        "−1"
+      ],
+      "answer": "1",
+      "explanation": "2×(-2)+5=1.",
+      "test": true
+    },
+    {
+      "id": "m7_algebra_t3",
+      "skill_id": "m7_algebra",
+      "question": "Solve: x/3 + 2 = 5",
+      "options": [
+        "9",
+        "6",
+        "3",
+        "12"
+      ],
+      "answer": "9",
+      "explanation": "x/3=3,x=9.",
+      "test": true
+    },
+    {
+      "id": "m8_algebra_t1",
+      "skill_id": "m8_algebra",
+      "question": "Solve: x + y = 7, x − y = 3",
+      "options": [
+        "x=5, y=2",
+        "x=4, y=3",
+        "x=6, y=1",
+        "x=5, y=3"
+      ],
+      "answer": "x=5, y=2",
+      "explanation": "2x=10,x=5,y=2.",
+      "test": true
+    },
+    {
+      "id": "m8_algebra_t2",
+      "skill_id": "m8_algebra",
+      "question": "If y = 3x − 2 and x = 4, y =",
+      "options": [
+        "10",
+        "14",
+        "8",
+        "12"
+      ],
+      "answer": "10",
+      "explanation": "3×4-2=10.",
+      "test": true
+    },
+    {
+      "id": "m8_algebra_t3",
+      "skill_id": "m8_algebra",
+      "question": "2x + 5 = 15 → x =",
+      "options": [
+        "5",
+        "10",
+        "3",
+        "7"
+      ],
+      "answer": "5",
+      "explanation": "2x=10,x=5.",
+      "test": true
+    },
+    {
+      "id": "m8_geometry_t1",
+      "skill_id": "m8_geometry",
+      "question": "Volume of a cuboid = length × breadth ×",
+      "options": [
+        "height",
+        "width",
+        "area",
+        "perimeter"
+      ],
+      "answer": "height",
+      "explanation": "l×b×h.",
+      "test": true
+    },
+    {
+      "id": "m8_geometry_t2",
+      "skill_id": "m8_geometry",
+      "question": "A rhombus has all sides",
+      "options": [
+        "equal",
+        "unequal",
+        "parallel",
+        "perpendicular"
+      ],
+      "answer": "equal",
+      "explanation": "4 equal sides.",
+      "test": true
+    },
+    {
+      "id": "m8_geometry_t3",
+      "skill_id": "m8_geometry",
+      "question": "Surface area of a cube of side 2 cm is",
+      "options": [
+        "24 cm²",
+        "8 cm²",
+        "12 cm²",
+        "6 cm²"
+      ],
+      "answer": "24 cm²",
+      "explanation": "6×(2×2)=24.",
+      "test": true
+    },
+    {
+      "id": "m8_data_t1",
+      "skill_id": "m8_data",
+      "question": "The range of data is",
+      "options": [
+        "max − min",
+        "max + min",
+        "max × min",
+        "max / min"
+      ],
+      "answer": "max − min",
+      "explanation": "max-min.",
+      "test": true
+    },
+    {
+      "id": "m8_data_t2",
+      "skill_id": "m8_data",
+      "question": "A pie chart shows",
+      "options": [
+        "parts of a whole",
+        "changes over time",
+        "exact values",
+        "only numbers"
+      ],
+      "answer": "parts of a whole",
+      "explanation": "Proportions.",
+      "test": true
+    },
+    {
+      "id": "m8_data_t3",
+      "skill_id": "m8_data",
+      "question": "Tally marks record",
+      "options": [
+        "frequency",
+        "angles",
+        "areas",
+        "temperatures"
+      ],
+      "answer": "frequency",
+      "explanation": "Counts.",
+      "test": true
+    }
+  ]
+}

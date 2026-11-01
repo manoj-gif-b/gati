@@ -1,0 +1,815 @@
+{
+  "subject": "science",
+  "items": [
+    {
+      "id": "s6_food_1",
+      "skill_id": "s6_food",
+      "question": "Plants make their food by the process of",
+      "options": [
+        "photosynthesis",
+        "respiration",
+        "transpiration",
+        "germination"
+      ],
+      "answer": "photosynthesis",
+      "explanation": "Plants use sunlight to make food in their leaves."
+    },
+    {
+      "id": "s6_food_2",
+      "skill_id": "s6_food",
+      "question": "Which of these is a milk product?",
+      "options": [
+        "cheese",
+        "rice",
+        "apple",
+        "wheat"
+      ],
+      "answer": "cheese",
+      "explanation": "Cheese is made from milk."
+    },
+    {
+      "id": "s6_food_3",
+      "skill_id": "s6_food",
+      "question": "Animals that eat only plants are called",
+      "options": [
+        "herbivores",
+        "carnivores",
+        "omnivores",
+        "scavengers"
+      ],
+      "answer": "herbivores",
+      "explanation": "Herbivores eat plants."
+    },
+    {
+      "id": "s6_materials_1",
+      "skill_id": "s6_materials",
+      "question": "Which material is opaque?",
+      "options": [
+        "wood",
+        "glass",
+        "air",
+        "water"
+      ],
+      "answer": "wood",
+      "explanation": "You cannot see through wood."
+    },
+    {
+      "id": "s6_materials_2",
+      "skill_id": "s6_materials",
+      "question": "Which of these dissolves in water?",
+      "options": [
+        "salt",
+        "sand",
+        "stone",
+        "plastic"
+      ],
+      "answer": "salt",
+      "explanation": "Salt dissolves in water."
+    },
+    {
+      "id": "s6_materials_3",
+      "skill_id": "s6_materials",
+      "question": "Metals are generally",
+      "options": [
+        "shiny",
+        "dull",
+        "transparent",
+        "brittle"
+      ],
+      "answer": "shiny",
+      "explanation": "Metals have a shiny surface."
+    },
+    {
+      "id": "s6_plants_1",
+      "skill_id": "s6_plants",
+      "question": "Leaves make food for the plant in",
+      "options": [
+        "green leaves",
+        "roots",
+        "flowers",
+        "fruits"
+      ],
+      "answer": "green leaves",
+      "explanation": "Green leaves contain chlorophyll for photosynthesis."
+    },
+    {
+      "id": "s6_plants_2",
+      "skill_id": "s6_plants",
+      "question": "Roots absorb",
+      "options": [
+        "water and minerals",
+        "sunlight",
+        "food",
+        "oxygen"
+      ],
+      "answer": "water and minerals",
+      "explanation": "Roots take in water and minerals from the soil."
+    },
+    {
+      "id": "s6_plants_3",
+      "skill_id": "s6_plants",
+      "question": "The part of the plant that grows into a new plant is the",
+      "options": [
+        "seed",
+        "leaf",
+        "stem",
+        "fruit"
+      ],
+      "answer": "seed",
+      "explanation": "A seed germinates into a new plant."
+    },
+    {
+      "id": "s6_motion_1",
+      "skill_id": "s6_motion",
+      "question": "The standard unit of length is",
+      "options": [
+        "metre",
+        "handspan",
+        "foot",
+        "cubit"
+      ],
+      "answer": "metre",
+      "explanation": "The SI unit of length is the metre."
+    },
+    {
+      "id": "s6_motion_2",
+      "skill_id": "s6_motion",
+      "question": "Motion of a bicycle wheel is",
+      "options": [
+        "circular",
+        "rectilinear",
+        "periodic",
+        "random"
+      ],
+      "answer": "circular",
+      "explanation": "The wheel moves in a circle about its axle."
+    },
+    {
+      "id": "s6_motion_3",
+      "skill_id": "s6_motion",
+      "question": "Objects at rest do not change their",
+      "options": [
+        "position",
+        "colour",
+        "size",
+        "shape"
+      ],
+      "answer": "position",
+      "explanation": "Rest means no change in position with time."
+    },
+    {
+      "id": "s7_nutrition_1",
+      "skill_id": "s7_nutrition",
+      "question": "Stomata are present mainly on the",
+      "options": [
+        "leaves",
+        "roots",
+        "stem",
+        "flowers"
+      ],
+      "answer": "leaves",
+      "explanation": "Stomata are tiny pores mostly on leaf surfaces."
+    },
+    {
+      "id": "s7_nutrition_2",
+      "skill_id": "s7_nutrition",
+      "question": "Cows and buffaloes are",
+      "options": [
+        "herbivores",
+        "carnivores",
+        "omnivores",
+        "parasites"
+      ],
+      "answer": "herbivores",
+      "explanation": "They eat grass and other plants."
+    },
+    {
+      "id": "s7_nutrition_3",
+      "skill_id": "s7_nutrition",
+      "question": "Photosynthesis needs",
+      "options": [
+        "sunlight, CO2, water",
+        "soil only",
+        "darkness",
+        "oxygen only"
+      ],
+      "answer": "sunlight, CO2, water",
+      "explanation": "Plants need sunlight, carbon dioxide and water."
+    },
+    {
+      "id": "s7_heat_1",
+      "skill_id": "s7_heat",
+      "question": "Heat flows from a",
+      "options": [
+        "hotter object to colder object",
+        "colder to hotter",
+        "only in metals",
+        "never flows"
+      ],
+      "answer": "hotter object to colder object",
+      "explanation": "Heat moves from higher to lower temperature."
+    },
+    {
+      "id": "s7_heat_2",
+      "skill_id": "s7_heat",
+      "question": "Normal body temperature is about",
+      "options": [
+        "37°C",
+        "0°C",
+        "100°C",
+        "25°C"
+      ],
+      "answer": "37°C",
+      "explanation": "Normal human body temperature is 37°C."
+    },
+    {
+      "id": "s7_heat_3",
+      "skill_id": "s7_heat",
+      "question": "Which is a good conductor of heat?",
+      "options": [
+        "copper",
+        "wood",
+        "plastic",
+        "cloth"
+      ],
+      "answer": "copper",
+      "explanation": "Metals such as copper conduct heat well."
+    },
+    {
+      "id": "s7_acids_1",
+      "skill_id": "s7_acids",
+      "question": "Vinegar contains",
+      "options": [
+        "acetic acid",
+        "hydrochloric acid",
+        "citric acid",
+        "salt"
+      ],
+      "answer": "acetic acid",
+      "explanation": "Vinegar is a dilute solution of acetic acid."
+    },
+    {
+      "id": "s7_acids_2",
+      "skill_id": "s7_acids",
+      "question": "Bases turn red litmus",
+      "options": [
+        "blue",
+        "red",
+        "green",
+        "yellow"
+      ],
+      "answer": "blue",
+      "explanation": "Bases turn red litmus paper blue."
+    },
+    {
+      "id": "s7_acids_3",
+      "skill_id": "s7_acids",
+      "question": "Acid + base →",
+      "options": [
+        "salt + water",
+        "sugar",
+        "oil",
+        "gas only"
+      ],
+      "answer": "salt + water",
+      "explanation": "Neutralisation produces salt and water."
+    },
+    {
+      "id": "s8_cell_1",
+      "skill_id": "s8_cell",
+      "question": "The cell wall is found in",
+      "options": [
+        "plant cells",
+        "animal cells",
+        "both",
+        "neither"
+      ],
+      "answer": "plant cells",
+      "explanation": "Plant cells have a cell wall; animal cells do not."
+    },
+    {
+      "id": "s8_cell_2",
+      "skill_id": "s8_cell",
+      "question": "The nucleus is called the",
+      "options": [
+        "control center of the cell",
+        "powerhouse",
+        "kitchen",
+        "garbage bin"
+      ],
+      "answer": "control center of the cell",
+      "explanation": "The nucleus controls the cell's activities."
+    },
+    {
+      "id": "s8_cell_3",
+      "skill_id": "s8_cell",
+      "question": "Mitochondria are the",
+      "options": [
+        "powerhouse of the cell",
+        "control center",
+        "storage",
+        "boundary"
+      ],
+      "answer": "powerhouse of the cell",
+      "explanation": "Mitochondria release energy for the cell."
+    },
+    {
+      "id": "s8_reproduction_1",
+      "skill_id": "s8_reproduction",
+      "question": "In plants, seeds are formed after",
+      "options": [
+        "fertilisation",
+        "germination",
+        "pollination only",
+        "photosynthesis"
+      ],
+      "answer": "fertilisation",
+      "explanation": "Fertilisation leads to seed formation."
+    },
+    {
+      "id": "s8_reproduction_2",
+      "skill_id": "s8_reproduction",
+      "question": "Humans reproduce by",
+      "options": [
+        "sexual reproduction",
+        "asexual reproduction",
+        "budding",
+        "fragmentation"
+      ],
+      "answer": "sexual reproduction",
+      "explanation": "Humans reproduce sexually."
+    },
+    {
+      "id": "s8_reproduction_3",
+      "skill_id": "s8_reproduction",
+      "question": "The female reproductive part of a flower is",
+      "options": [
+        "pistil/carpel",
+        "stamen",
+        "petal",
+        "sepal"
+      ],
+      "answer": "pistil/carpel",
+      "explanation": "The pistil (carpel) is the female part."
+    },
+    {
+      "id": "s8_force_1",
+      "skill_id": "s8_force",
+      "question": "A push or pull on an object is called",
+      "options": [
+        "force",
+        "energy",
+        "pressure",
+        "work"
+      ],
+      "answer": "force",
+      "explanation": "Force is a push or a pull."
+    },
+    {
+      "id": "s8_force_2",
+      "skill_id": "s8_force",
+      "question": "Pressure = force ÷",
+      "options": [
+        "area",
+        "volume",
+        "mass",
+        "time"
+      ],
+      "answer": "area",
+      "explanation": "Pressure is force per unit area."
+    },
+    {
+      "id": "s8_force_3",
+      "skill_id": "s8_force",
+      "question": "Gravity is a",
+      "options": [
+        "non-contact force",
+        "contact force",
+        "magnetic force",
+        "friction"
+      ],
+      "answer": "non-contact force",
+      "explanation": "Gravity acts without touching the object."
+    },
+    {
+      "id": "s6_food_t1",
+      "skill_id": "s6_food",
+      "question": "Which nutrient gives energy?",
+      "options": [
+        "carbohydrates",
+        "proteins",
+        "vitamins",
+        "minerals"
+      ],
+      "answer": "carbohydrates",
+      "explanation": "Energy nutrient.",
+      "test": true
+    },
+    {
+      "id": "s6_food_t2",
+      "skill_id": "s6_food",
+      "question": "Proteins are called",
+      "options": [
+        "body-building foods",
+        "energy-giving foods",
+        "protective foods",
+        "water"
+      ],
+      "answer": "body-building foods",
+      "explanation": "Build body.",
+      "test": true
+    },
+    {
+      "id": "s6_food_t3",
+      "skill_id": "s6_food",
+      "question": "Roughage is found in",
+      "options": [
+        "fruits and vegetables",
+        "oil",
+        "sugar",
+        "salt"
+      ],
+      "answer": "fruits and vegetables",
+      "explanation": "Fibre from plants.",
+      "test": true
+    },
+    {
+      "id": "s6_materials_t1",
+      "skill_id": "s6_materials",
+      "question": "Which material is transparent?",
+      "options": [
+        "glass",
+        "wood",
+        "metal",
+        "stone"
+      ],
+      "answer": "glass",
+      "explanation": "See through glass.",
+      "test": true
+    },
+    {
+      "id": "s6_materials_t2",
+      "skill_id": "s6_materials",
+      "question": "Which is not soluble in water?",
+      "options": [
+        "sand",
+        "salt",
+        "sugar",
+        "baking soda"
+      ],
+      "answer": "sand",
+      "explanation": "Sand insoluble.",
+      "test": true
+    },
+    {
+      "id": "s6_materials_t3",
+      "skill_id": "s6_materials",
+      "question": "Which metal is liquid at room temperature?",
+      "options": [
+        "mercury",
+        "iron",
+        "copper",
+        "aluminium"
+      ],
+      "answer": "mercury",
+      "explanation": "Liquid metal.",
+      "test": true
+    },
+    {
+      "id": "s6_plants_t1",
+      "skill_id": "s6_plants",
+      "question": "The stem carries",
+      "options": [
+        "water and minerals",
+        "food only",
+        "oxygen only",
+        "nothing"
+      ],
+      "answer": "water and minerals",
+      "explanation": "Transport.",
+      "test": true
+    },
+    {
+      "id": "s6_plants_t2",
+      "skill_id": "s6_plants",
+      "question": "Flowers produce",
+      "options": [
+        "seeds",
+        "roots",
+        "leaves",
+        "stem"
+      ],
+      "answer": "seeds",
+      "explanation": "After fertilisation.",
+      "test": true
+    },
+    {
+      "id": "s6_plants_t3",
+      "skill_id": "s6_plants",
+      "question": "Chlorophyll gives leaves their",
+      "options": [
+        "green colour",
+        "red colour",
+        "yellow colour",
+        "brown colour"
+      ],
+      "answer": "green colour",
+      "explanation": "Green pigment.",
+      "test": true
+    },
+    {
+      "id": "s6_motion_t1",
+      "skill_id": "s6_motion",
+      "question": "1 kilometre = ___ metres",
+      "options": [
+        "1000",
+        "100",
+        "10",
+        "10000"
+      ],
+      "answer": "1000",
+      "explanation": "1km=1000m.",
+      "test": true
+    },
+    {
+      "id": "s6_motion_t2",
+      "skill_id": "s6_motion",
+      "question": "Motion of a swing is",
+      "options": [
+        "periodic",
+        "circular",
+        "random",
+        "none"
+      ],
+      "answer": "periodic",
+      "explanation": "Repeats over time.",
+      "test": true
+    },
+    {
+      "id": "s6_motion_t3",
+      "skill_id": "s6_motion",
+      "question": "The SI unit of mass is",
+      "options": [
+        "kilogram",
+        "gram",
+        "metre",
+        "second"
+      ],
+      "answer": "kilogram",
+      "explanation": "SI mass unit.",
+      "test": true
+    },
+    {
+      "id": "s7_nutrition_t1",
+      "skill_id": "s7_nutrition",
+      "question": "Veins in a leaf carry",
+      "options": [
+        "water and food",
+        "only air",
+        "only sunlight",
+        "nothing"
+      ],
+      "answer": "water and food",
+      "explanation": "Transport.",
+      "test": true
+    },
+    {
+      "id": "s7_nutrition_t2",
+      "skill_id": "s7_nutrition",
+      "question": "A carnivore eats",
+      "options": [
+        "other animals",
+        "only plants",
+        "plants and animals",
+        "only fruits"
+      ],
+      "answer": "other animals",
+      "explanation": "Eats animals.",
+      "test": true
+    },
+    {
+      "id": "s7_nutrition_t3",
+      "skill_id": "s7_nutrition",
+      "question": "Photosynthesis releases",
+      "options": [
+        "oxygen",
+        "carbon dioxide",
+        "nitrogen",
+        "hydrogen"
+      ],
+      "answer": "oxygen",
+      "explanation": "Releases O2.",
+      "test": true
+    },
+    {
+      "id": "s7_heat_t1",
+      "skill_id": "s7_heat",
+      "question": "A clinical thermometer measures",
+      "options": [
+        "body temperature",
+        "room temperature",
+        "water temperature",
+        "oven temperature"
+      ],
+      "answer": "body temperature",
+      "explanation": "Body temp.",
+      "test": true
+    },
+    {
+      "id": "s7_heat_t2",
+      "skill_id": "s7_heat",
+      "question": "Which is an insulator?",
+      "options": [
+        "wood",
+        "copper",
+        "aluminium",
+        "iron"
+      ],
+      "answer": "wood",
+      "explanation": "Poor conductor.",
+      "test": true
+    },
+    {
+      "id": "s7_heat_t3",
+      "skill_id": "s7_heat",
+      "question": "Temperature is measured in",
+      "options": [
+        "°C",
+        "m",
+        "kg",
+        "s"
+      ],
+      "answer": "°C",
+      "explanation": "Degrees Celsius.",
+      "test": true
+    },
+    {
+      "id": "s7_acids_t1",
+      "skill_id": "s7_acids",
+      "question": "Lemon juice is",
+      "options": [
+        "acidic",
+        "basic",
+        "neutral",
+        "salty"
+      ],
+      "answer": "acidic",
+      "explanation": "Citric acid.",
+      "test": true
+    },
+    {
+      "id": "s7_acids_t2",
+      "skill_id": "s7_acids",
+      "question": "Soap solution is",
+      "options": [
+        "basic",
+        "acidic",
+        "neutral",
+        "salty"
+      ],
+      "answer": "basic",
+      "explanation": "Soap is basic.",
+      "test": true
+    },
+    {
+      "id": "s7_acids_t3",
+      "skill_id": "s7_acids",
+      "question": "Turmeric paste turns red in",
+      "options": [
+        "base",
+        "acid",
+        "water",
+        "salt"
+      ],
+      "answer": "base",
+      "explanation": "Red with base.",
+      "test": true
+    },
+    {
+      "id": "s8_cell_t1",
+      "skill_id": "s8_cell",
+      "question": "The cell membrane controls",
+      "options": [
+        "entry and exit of substances",
+        "food making only",
+        "nothing",
+        "colour only"
+      ],
+      "answer": "entry and exit of substances",
+      "explanation": "Controls entry/exit.",
+      "test": true
+    },
+    {
+      "id": "s8_cell_t2",
+      "skill_id": "s8_cell",
+      "question": "Vacuoles store",
+      "options": [
+        "water and food",
+        "oxygen only",
+        "waste only",
+        "nothing"
+      ],
+      "answer": "water and food",
+      "explanation": "Storage.",
+      "test": true
+    },
+    {
+      "id": "s8_cell_t3",
+      "skill_id": "s8_cell",
+      "question": "Plant cells differ from animal cells by having",
+      "options": [
+        "cell wall",
+        "nucleus",
+        "mitochondria",
+        "cell membrane"
+      ],
+      "answer": "cell wall",
+      "explanation": "Cell wall.",
+      "test": true
+    },
+    {
+      "id": "s8_reproduction_t1",
+      "skill_id": "s8_reproduction",
+      "question": "Pollination is the transfer of",
+      "options": [
+        "pollen",
+        "seeds",
+        "water",
+        "food"
+      ],
+      "answer": "pollen",
+      "explanation": "Pollen transfer.",
+      "test": true
+    },
+    {
+      "id": "s8_reproduction_t2",
+      "skill_id": "s8_reproduction",
+      "question": "Budding occurs in",
+      "options": [
+        "yeast",
+        "humans",
+        "plants only",
+        "birds"
+      ],
+      "answer": "yeast",
+      "explanation": "Yeast buds.",
+      "test": true
+    },
+    {
+      "id": "s8_reproduction_t3",
+      "skill_id": "s8_reproduction",
+      "question": "The male part of a flower is",
+      "options": [
+        "stamen",
+        "pistil",
+        "petal",
+        "sepal"
+      ],
+      "answer": "stamen",
+      "explanation": "Male part.",
+      "test": true
+    },
+    {
+      "id": "s8_force_t1",
+      "skill_id": "s8_force",
+      "question": "Friction always acts",
+      "options": [
+        "opposite to motion",
+        "in direction of motion",
+        "upwards",
+        "downwards"
+      ],
+      "answer": "opposite to motion",
+      "explanation": "Opposes motion.",
+      "test": true
+    },
+    {
+      "id": "s8_force_t2",
+      "skill_id": "s8_force",
+      "question": "Atmospheric pressure is caused by",
+      "options": [
+        "weight of air",
+        "gravity only",
+        "wind",
+        "heat"
+      ],
+      "answer": "weight of air",
+      "explanation": "Air weight.",
+      "test": true
+    },
+    {
+      "id": "s8_force_t3",
+      "skill_id": "s8_force",
+      "question": "A magnet exerts",
+      "options": [
+        "magnetic force",
+        "friction",
+        "heat",
+        "light"
+      ],
+      "answer": "magnetic force",
+      "explanation": "Magnetic force.",
+      "test": true
+    }
+  ]
+}

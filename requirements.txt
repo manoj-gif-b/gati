@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+# SQLAlchemy 2.1.x ships a C extension that is blocked by the application
+# control policy on this machine; 2.0.36 imports cleanly on Python 3.13.
+sqlalchemy==2.0.36
+pytest
+httpx

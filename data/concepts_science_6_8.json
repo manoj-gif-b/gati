@@ -1,0 +1,42 @@
+{
+  "s6_food": {
+    "title": "Food: sources and components",
+    "text": "Plants make their own food using sunlight in a process called photosynthesis. Animals get their food by eating plants or other animals. Food contains nutrients such as carbohydrates, proteins, fats, vitamins and minerals."
+  },
+  "s6_materials": {
+    "title": "Materials: sorting and grouping",
+    "text": "We sort materials by how they look, feel and behave. Some materials let light through (transparent), some do not (opaque), and some dissolve in water. Metals are usually shiny and can be hammered or drawn into wires."
+  },
+  "s6_plants": {
+    "title": "Plants: parts and functions",
+    "text": "A plant has roots, stem, leaves and flowers, each with a special job. Leaves make food, roots absorb water and minerals from the soil, and the stem carries them around the plant. Seeds grow into new plants."
+  },
+  "s6_motion": {
+    "title": "Motion and measurement of distances",
+    "text": "Motion means a change in position over time. We measure length in metres and smaller units in centimetres and millimetres. Motion can be in a straight line, circular, or repeat over and over (periodic)."
+  },
+  "s7_nutrition": {
+    "title": "Nutrition in plants and animals",
+    "text": "Plants take in nutrients through their leaves and roots, while animals eat plants or other animals. Tiny pores called stomata on leaves help plants exchange gases. Animals digest food to release energy for growth and repair. Needs plants and food."
+  },
+  "s7_heat": {
+    "title": "Heat and temperature",
+    "text": "Heat always flows from a hotter object to a colder one, never the other way by itself. We measure temperature in degrees Celsius with a thermometer. Metals such as copper conduct heat well; wood and cloth do not."
+  },
+  "s7_acids": {
+    "title": "Acids, bases and salts",
+    "text": "Acids taste sour and turn blue litmus paper red. Bases feel soapy and turn red litmus paper blue. When an acid meets a base, they neutralise each other and produce salt and water. Needs materials."
+  },
+  "s8_cell": {
+    "title": "Cell: structure and functions",
+    "text": "The cell is the basic building block of all living things. Plant cells have a rigid cell wall around the membrane, while animal cells do not. The nucleus controls the cell, and mitochondria release energy for its activities. Needs nutrition."
+  },
+  "s8_reproduction": {
+    "title": "Reproduction in plants and animals",
+    "text": "Plants produce seeds after fertilisation, and the seed grows into a new plant. Humans and most animals reproduce by sexual reproduction, needing a mother and a father. The female part of a flower is the pistil. Needs nutrition."
+  },
+  "s8_force": {
+    "title": "Force and pressure",
+    "text": "A force is a push or a pull acting on an object. It can move a stationary object, stop a moving one or change its direction. Pressure is force spread over an area, and gravity pulls objects without even touching them. Needs motion."
+  }
+}
