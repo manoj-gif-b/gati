@@ -16,6 +16,7 @@ const app = document.getElementById("app");
 const studentPicker = document.getElementById("student-picker");
 const startBtn = document.getElementById("start-btn");
 const loginErr = document.getElementById("login-err");
+const themeToggle = document.getElementById("theme-toggle");
 const subjButtons = document.querySelectorAll(".subj-btn");
 const tabs = document.querySelectorAll(".tab");
 const screens = {
@@ -35,6 +36,36 @@ function setSubjectActive(subject) {
     b.classList.toggle("active", b.dataset.subject === subject)
   );
 }
+
+function applyTheme(theme) {
+  if (theme === "light") {
+    document.body.setAttribute("data-theme", "light");
+    themeToggle.textContent = "Dark";
+  } else {
+    document.body.removeAttribute("data-theme");
+    themeToggle.textContent = "Light";
+  }
+}
+
+function saveTheme(theme) {
+  try {
+    localStorage.setItem("gati_theme", theme);
+  } catch (e) {
+    // Storage failed; fall back to dark theme.
+    applyTheme("dark");
+  }
+}
+
+themeToggle.addEventListener("click", () => {
+  const isLight = document.body.hasAttribute("data-theme");
+  if (isLight) {
+    applyTheme("dark");
+    saveTheme("dark");
+  } else {
+    applyTheme("light");
+    saveTheme("light");
+  }
+});
 
 async function loadStudents() {
   try {
@@ -62,8 +93,8 @@ startBtn.addEventListener("click", async () => {
   }
   state.studentId = id;
   localStorage.setItem("gati_student_id", String(id));
-  loginScreen.style.display = "none";
-  app.style.display = "block";
+  loginScreen.classList.add("hidden");
+  app.classList.remove("hidden");
   state.subject = "maths";
   setSubjectActive("maths");
   showScreen("learn");
@@ -88,15 +119,20 @@ subjButtons.forEach((b) => {
 
 async function renderLearn(subject) {
   const card = document.getElementById("learn-card");
+  const loading = document.getElementById("learn-loading");
   const empty = document.getElementById("learn-empty");
   const title = document.getElementById("learn-skill-title");
   const sub = document.getElementById("learn-skill-sub");
   const reason = document.getElementById("learn-reason");
   const concept = document.getElementById("learn-concept");
 
-  card.classList.add("hidden");
-  empty.classList.remove("hidden");
-  empty.textContent = "Loading...";
+  card.classList.remove("hidden");
+  loading.classList.remove("hidden");
+  empty.classList.add("hidden");
+  title.classList.add("hidden");
+  sub.classList.add("hidden");
+  reason.classList.add("hidden");
+  concept.classList.add("hidden");
 
   try {
     const r = await fetch(
@@ -107,8 +143,9 @@ async function renderLearn(subject) {
     state.currentSkillId = data.skill_id;
     state.lastNextStep = data;
 
-    empty.classList.add("hidden");
-    card.classList.remove("hidden");
+    loading.classList.add("hidden");
+    title.classList.remove("hidden");
+    sub.classList.remove("hidden");
     title.textContent = data.name;
     sub.textContent = "Class " + data.grade + "  \u00b7  " + data.subject;
     reason.textContent = data.reason;
@@ -123,9 +160,9 @@ async function renderLearn(subject) {
       (c.text ? "<p>" + c.text + "</p>" : "");
     concept.classList.remove("hidden");
   } catch (e) {
-    empty.textContent = "Could not load lesson: " + e.message;
+    loading.classList.add("hidden");
     empty.classList.remove("hidden");
-    card.classList.add("hidden");
+    empty.textContent = "Could not load lesson: " + e.message;
     console.error("renderLearn error:", e);
   }
 }
@@ -401,6 +438,9 @@ document.getElementById("test-continue").addEventListener("click", () => {
 });
 
 (function boot() {
+  const savedTheme = localStorage.getItem("gati_theme");
+  applyTheme(savedTheme || "dark");
+
   const saved = localStorage.getItem("gati_student_id");
   if (saved) {
     state.studentId = +saved;
@@ -412,14 +452,14 @@ document.getElementById("test-continue").addEventListener("click", () => {
     loadStudents()
       .then(() => renderLearn(state.subject))
       .catch((e) => {
-        loginScreen.style.display = "block";
-        app.style.display = "none";
+        loginScreen.classList.remove("hidden");
+        app.classList.add("hidden");
         loginErr.textContent = "Could not load students: " + e.message;
         console.error("boot error:", e);
       });
   } else {
-    loginScreen.style.display = "block";
-    app.style.display = "none";
+    loginScreen.classList.remove("hidden");
+    app.classList.add("hidden");
     loadStudents();
   }
 })();

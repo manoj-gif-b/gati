@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -10,7 +10,7 @@
 
 <!-- Student login -->
 <div id="login-screen" class="screen">
-  <div class="card">
+  <div class="card login-card">
     <h1>Gati</h1>
     <p>Adaptive learning &mdash; Maths &amp; Science, Classes 6 to 8</p>
     <label>Pick your name</label>
@@ -23,11 +23,14 @@
 <!-- Main app (shown after login) -->
 <div id="app" class="screen hidden">
   <header class="app-header">
-    <div id="student-label">Student</div>
-    <div class="subject-picker">
-      <button class="subj-btn" data-subject="maths">Maths</button>
-      <button class="subj-btn" data-subject="science">Science</button>
+    <div class="header-left">
+      <div id="student-label">Student</div>
+      <div class="subject-picker">
+        <button class="subj-btn" data-subject="maths">Maths</button>
+        <button class="subj-btn" data-subject="science">Science</button>
+      </div>
     </div>
+    <button id="theme-toggle" class="theme-toggle">Light</button>
   </header>
 
   <nav class="tabs">
@@ -37,10 +40,11 @@
   </nav>
 
   <!-- Learn screen -->
-  <section id="learn-screen" class="screen">
+  <section id="learn-screen" class="screen section-card">
     <h2>Learn</h2>
-    <div id="learn-empty" class="empty hidden">Pick a subject to begin.</div>
-    <div id="learn-card" class="card hidden">
+    <div id="learn-card" class="card">
+      <div id="learn-loading" style="text-align:center; color:var(--muted);">Loading...</div>
+      <div id="learn-empty" class="empty hidden">Pick a subject to begin.</div>
       <h3 id="learn-skill-title"></h3>
       <p id="learn-skill-sub" class="sub"></p>
       <div id="learn-reason" class="reason"></div>
@@ -50,10 +54,10 @@
   </section>
 
   <!-- Solve screen -->
-  <section id="solve-screen" class="screen">
+  <section id="solve-screen" class="screen section-card">
     <h2>Solve</h2>
     <div id="solve-empty" class="empty hidden">Continue from Learn to get a question.</div>
-    <div id="solve-card" class="card hidden">
+    <div id="solve-card" class="card">
       <div id="solve-skill-label" class="sub"></div>
       <div class="mastery-row">
         <span>Mastery</span>
@@ -69,10 +73,10 @@
   </section>
 
   <!-- Test screen -->
-  <section id="test-screen" class="screen">
+  <section id="test-screen" class="screen section-card">
     <h2>Test</h2>
     <p id="test-intro">When you reach mastered level on a skill, a 3-question check will appear here automatically.</p>
-    <div id="test-card" class="card hidden">
+    <div id="test-card" class="card">
       <div id="test-skill-label" class="sub"></div>
       <p id="test-question"></p>
       <div id="test-options"></div>
