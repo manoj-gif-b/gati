@@ -5,4 +5,4 @@ __pycache__/
 .venv/
 venv/
 .env
-node_modules/
+node_modules/uvicorn.out
